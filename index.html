@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="description"
+        content="Portfolio Simon Styvan Siregar - Mahasiswa Teknik Informatika Universitas Budi Luhur">
+    <title>Simon Styvan Siregar</title>
+
+    <!-- ======================================== -->
+    <!-- CDN EXTERNAL -->
+    <!-- ======================================== -->
+    <!-- BOOTSTRAP 5.3.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FONT AWESOME 6.5.1 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- AOS ANIMATION -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- GOOGLE FONTS -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- ======================================== -->
+    <!-- CSS CUSTOM -->
+    <!-- ======================================== -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ======================================== -->
+    <!-- BACKGROUND BINTANG -->
+    <!-- ======================================== -->
+    <div class="star-bg" id="starBg"></div>
+
+    <!-- ======================================== -->
+    <!-- NAVBAR -->
+    <!-- ======================================== -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Simon</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tentang">Tentang</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skill">Skill</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pendidikan">Riwayat</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#hobi">Hobi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ======================================== -->
+    <!-- MAIN CONTENT -->
+    <!-- ======================================== -->
+    <main>
+        <!-- HERO -->
+        <section id="home" class="hero">
+            <div class="container text-center">
+                <img src="image/foto profil.jpeg" alt="Simon Styvan Siregar" class="profile-img mb-4" data-aos="zoom-in"
+                    data-aos-duration="800"
+                    onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name=Simon+S&background=0a0e1a&color=60a5fa&size=180&rounded=true&bold=true';">
+                <h1 data-aos="fade-up" data-aos-delay="80">Simon</h1>
+                <div class="mb-4" data-aos="fade-up" data-aos-delay="120">
+                    <span class="badge-simple"><i class="fas fa-graduation-cap me-1"></i> Teknik Informatika</span>
+                    <span class="badge-simple ms-2"><i class="fas fa-university me-1"></i> Universitas Budi Luhur</span>
+                    <span class="badge-simple ms-2"><i class="fas fa-map-pin me-1"></i> Jakarta</span>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="200">
+                    <a href="#kontak" class="btn btn-primary-custom me-3"><i class="fas fa-envelope me-2"></i>Hubungi
+                        Saya</a>
+                    <a href="#tentang" class="btn btn-outline-custom"><i
+                            class="fas fa-chevron-right me-2"></i>Selengkapnya</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <!-- TENTANG -->
+            <section id="tentang">
+                <h2 class="section-title" data-aos="fade-right">Tentang Saya</h2>
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-7" data-aos="fade-right" data-aos-delay="80">
+                        <div class="card-glass p-4">
+                            <p style="font-size: 1rem; line-height: 1.7;">
+                                Halo! Saya <strong class="fw-bold" style="color: var(--color-primary);">Simon Styvan
+                                    Siregar</strong>,
+                                mahasiswa <strong>Teknik Informatika di Universitas Budi Luhur</strong>. Saya memiliki
+                                ketertarikan
+                                yang besar pada bidang teknologi informasi dan terus berusaha mengembangkan kemampuan
+                                melalui
+                                proses belajar dan praktik secara mandiri. Saat ini, saya sedang mempelajari berbagai
+                                teknologi
+                                seperti <strong>Python, HTML, CSS, Java</strong>, serta dasar-dasar <strong>query
+                                    database (SQL)</strong>
+                                untuk memperluas wawasan dan meningkatkan keterampilan dalam bidang pemrograman dan
+                                pengembangan aplikasi.
+                            </p>
+                            <p style="font-size: 1rem; line-height: 1.7; margin-top: 12px;">
+                                Saya senang mempelajari hal-hal baru, terutama yang berkaitan dengan pengembangan web,
+                                pengelolaan basis data, dan pembuatan aplikasi. Bagi saya, setiap proses belajar
+                                merupakan
+                                kesempatan untuk terus berkembang dan menambah pengalaman agar dapat menjadi seorang
+                                profesional
+                                di bidang teknologi informasi di masa depan.
+                            </p>
+                            <div class="mt-3">
+                                <span class="skill-chip"><i class="fab fa-python"></i> Python</span>
+                                <span class="skill-chip"><i class="fab fa-html5"></i> HTML5</span>
+                                <span class="skill-chip"><i class="fab fa-css3-alt"></i> CSS3</span>
+                                <span class="skill-chip"><i class="fab fa-java"></i> Java</span>
+                                <span class="skill-chip"><i class="fas fa-database"></i> SQL</span>
+                                <span class="skill-chip"><i class="fab fa-js"></i> JavaScript</span>
+                                <span class="skill-chip"><i class="fab fa-php"></i> PHP</span>
+                                <span class="skill-chip"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5" data-aos="fade-left" data-aos-delay="120">
+                        <div class="card-glass p-4 text-center">
+                            <i class="fas fa-quote-right fa-2x" style="color: var(--color-secondary);"></i>
+                            <p class="mt-3 fst-italic fs-5 mb-2" style="color: #cbd5e1;">"Teruslah belajar dan jangan
+                                pernah berhenti."</p>
+                            <hr class="w-25 mx-auto" style="border-color: var(--color-primary); opacity: 0.3;">
+                            <p class="mb-0 fw-semibold">— Simon Styvan Siregar</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SKILLS -->
+            <section id="skill">
+                <h2 class="section-title" data-aos="fade-right">Kemampuan</h2>
+                <div class="row g-4">
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="80">
+                        <div class="card-glass p-4">
+                            <h5 class="mb-3" style="color: #93c5fd;"><i class="fas fa-code me-2"></i>Bahasa Pemrograman
+                            </h5>
+                            <div class="skill-item">
+                                <div class="skill-label">
+                                    <span><i class="fab fa-python"></i> Python</span>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-label">
+                                    <span><i class="fab fa-html5"></i> HTML / CSS</span>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-label">
+                                    <span><i class="fab fa-js"></i> JavaScript</span>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-label">
+                                    <span><i class="fab fa-php"></i> PHP</span>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="160">
+                        <div class="card-glass p-4">
+                            <h5 class="mb-3" style="color: #93c5fd;"><i class="fas fa-database me-2"></i>Database &
+                                Framework</h5>
+                            <div class="skill-item">
+                                <div class="skill-label">
+                                    <span><i class="fas fa-database"></i> SQL (MySQL)</span>
+                                    <span class="skill-percent">75%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" style="width: 75%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-label">
+                                    <span><i class="fab fa-bootstrap"></i> Bootstrap</span>
+                                    <span class="skill-percent">75%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" style="width: 75%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-label">
+                                    <span><i class="fab fa-java"></i> Java</span>
+                                    <span class="skill-percent">70%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" style="width: 70%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PENDIDIKAN -->
+            <section id="pendidikan">
+                <h2 class="section-title" data-aos="fade-right">Riwayat Pendidikan & Pengalaman</h2>
+                <div class="row g-4">
+                    <div class="col-12" data-aos="fade-up" data-aos-delay="80">
+                        <div class="card-glass p-4">
+                            <div class="timeline-item">
+                                <div class="d-flex flex-wrap align-items-center gap-2 mb-1">
+                                    <span class="timeline-year">2024 – Sekarang</span>
+                                    <span class="badge-simple ms-2"
+                                        style="font-size: 0.65rem; padding: 2px 12px;">Aktif</span>
+                                </div>
+                                <div class="timeline-title">Universitas Budi Luhur</div>
+                                <div class="timeline-sub"><i class="fas fa-graduation-cap me-1"></i> Teknik Informatika
+                                </div>
+                                <div class="timeline-desc">
+                                    Mengembangkan keahlian di bidang teknologi informasi lewat pembelajaran bahasa
+                                    pemrograman seperti Python, HTML/CSS, dan JavaScript. Selain mendalami logika
+                                    algoritma, saya juga belajar merancang sistem menggunakan ERD, Use Case Diagram, dan
+                                    Activity Diagram, serta belajar membuat komputer grafik pakai 3ds Max.
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="d-flex flex-wrap align-items-center gap-2 mb-1">
+                                    <span class="timeline-year">2021 – 2024</span>
+                                </div>
+                                <div class="timeline-title">SMK Ki Hajar Dewantoro</div>
+                                <div class="timeline-sub"><i class="fas fa-calculator me-1"></i> Akuntansi Dasar</div>
+                                <div class="timeline-desc">
+                                    Mempelajari dasar-dasar administrasi keuangan memakai software MYOB dan Microsoft
+                                    Excel, mulai dari penyusunan jurnal, buku besar, pengelolaan kas kecil, sampai
+                                    jurnal penyesuaian yang fokus pada keseimbangan debit dan kredit.
+                                </div>
+                            </div>
+                            <div class="timeline-item" style="border-left-color: var(--color-secondary);">
+                                <div class="d-flex flex-wrap align-items-center gap-2 mb-1">
+                                    <span class="timeline-year" style="color: var(--color-secondary);">2018 –
+                                        2021</span>
+                                </div>
+                                <div class="timeline-title">SMP Ki Hajar Dewantoro</div>
+                                <div class="timeline-sub"><i class="fas fa-school me-1"></i> Sekolah Menengah Pertama
+                                </div>
+                                <div class="timeline-desc">
+                                    Aktif dalam berbagai kegiatan sekolah, termasuk keseruan kerja kelompok praktikum
+                                    IPA langsung di area persawahan sekaligus mengurus dokumentasi tugasnya.
+                                </div>
+                            </div>
+                            <div class="timeline-item" style="border-left-color: #f59e0b;">
+                                <div class="d-flex flex-wrap align-items-center gap-2 mb-1">
+                                    <span class="timeline-year" style="color: #f59e0b;">September – Desember 2022</span>
+                                    <span class="badge-simple ms-2"
+                                        style="font-size: 0.65rem; padding: 2px 12px; border-color: #f59e0b; color: #f59e0b;">PKL</span>
+                                </div>
+                                <div class="timeline-title">PT Timexs Indonesia (Bank DBS)</div>
+                                <div class="timeline-sub"><i class="fas fa-briefcase me-1"></i> Praktek Kerja Lapangan
+                                </div>
+                                <div class="timeline-desc">
+                                    Belajar mempraktikkan cara berkomunikasi yang baik dan profesional dengan nasabah,
+                                    terutama dalam memberikan penjelasan serta mengedukasi terkait produk KTA.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- HOBI -->
+            <section id="hobi">
+                <h2 class="section-title" data-aos="fade-right">Hobi</h2>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-4 col-sm-6" data-aos="flip-left" data-aos-delay="0">
+                        <div class="hobi-card">
+                            <img src="image/jogging.jpeg"
+                                class="hobi-img" alt="Lari">
+                            <div class="p-3 text-center">
+                                <h5><i class="fas fa-jogging" style="color: var(--color-primary);"></i> Lari</h5>
+                                <p class="small text-secondary">Menjaga stamina & fokus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6" data-aos="flip-left" data-aos-delay="100">
+                        <div class="hobi-card">
+                            <img src="image/basket2.jpeg "
+                                class="hobi-img" alt="Basket">
+                            <div class="p-3 text-center">
+                                <h5><i class="fas fa-basketball-ball" style="color: var(--color-primary);"></i> Basket
+                                </h5>
+                                <p class="small text-secondary">Kerja tim & strategi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6" data-aos="flip-left" data-aos-delay="200">
+                        <div class="hobi-card">
+                            <img src="image/gunung.jpeg"
+                                class="hobi-img" alt="Mendaki">
+                            <div class="p-3 text-center">
+                                <h5><i class="fas fa-mountain" style="color: var(--color-primary);"></i> Mendaki</h5>
+                                <p class="small text-secondary">Menjelajah alam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- RENCANA -->
+            <section>
+                <h2 class="section-title" data-aos="fade-right">Rencana ke Depan</h2>
+                <div class="row g-3 text-center">
+                    <div class="col-md-4" data-aos="zoom-in" data-aos-delay="80">
+                        <div class="stat-card-simple p-4">
+                            <i class="fas fa-chalkboard-user fa-3x mb-2" style="color: var(--color-primary);"></i>
+                            <h5>Terus Belajar</h5>
+                            <p class="small text-secondary">Bootcamp & sertifikasi teknologi.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="zoom-in" data-aos-delay="160">
+                        <div class="stat-card-simple p-4">
+                            <i class="fas fa-briefcase fa-3x mb-2" style="color: var(--color-secondary);"></i>
+                            <h5>Karir Impian</h5>
+                            <p class="small text-secondary">Full-stack developer atau database engineer.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="zoom-in" data-aos-delay="240">
+                        <div class="stat-card-simple p-4">
+                            <i class="fas fa-users fa-3x mb-2" style="color: var(--color-primary);"></i>
+                            <h5>Kolaborasi</h5>
+                            <p class="small text-secondary">Komunitas developer & proyek inovatif.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- KONTAK -->
+            <section id="kontak">
+                <h2 class="section-title" data-aos="fade-right">Kontak</h2>
+                <div class="row g-5">
+                    <div class="col-md-5" data-aos="fade-right" data-aos-delay="80">
+                        <div class="contact-card p-4 h-100">
+                            <h4 class="fw-bold" style="color: #93c5fd;"><i class="fas fa-address-card me-2"></i>Hubungi
+                                Saya</h4>
+                            <div class="mt-4">
+                                <div class="contact-info">
+                                    <i class="fas fa-envelope"></i>
+                                    <span class="label">Email</span>
+                                    <a href="mailto:simon.styvan@budiluhur.ac.id">siregarsimon670@gmail.com</a>
+                                </div>
+                                <div class="contact-info" style="border-color: rgba(96, 165, 250, 0.2);">
+                                    <i class="fas fa-phone" style="color: #34d399;"></i>
+                                    <span class="label">Telepon</span>
+                                    <a href="tel:087861541209"
+                                        style="color: #34d399; font-weight: 600;">0878-6154-1209</a>
+                                </div>
+                                <div class="contact-info">
+                                    <i class="fab fa-instagram"></i>
+                                    <span class="label">Instagram</span>
+                                    <a href="https://www.instagram.com/imon_115/" target="_blank"
+                                        rel="noopener noreferrer">@simon_styvan</a>
+                                </div>
+                                <div class="contact-info">
+                                    <i class="fab fa-github"></i>
+                                    <span class="label">GitHub</span>
+                                    <a href="https://github.com/Simon96999" target="_blank"
+                                        rel="noopener noreferrer">github.com/simonstyvan</a>
+                                </div>
+                                <div class="contact-info">
+                                    <i class="fab fa-linkedin"></i>
+                                    <span class="label">LinkedIn</span>
+                                    <a href="https://www.linkedin.com/in/simon-siregar-20546a417/" target="_blank"
+                                        rel="noopener noreferrer">linkedin.com/in/simon-styvan</a>
+                                </div>
+                            </div>
+                            <hr class="bg-secondary" style="opacity: 0.2;">
+                            <p class="small"><i class="fas fa-clock me-1"></i> Respon dalam 1x24 jam.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-7" data-aos="fade-left" data-aos-delay="120">
+                        <div class="contact-card p-4">
+                            <h5><i class="fas fa-paper-plane me-2" style="color: var(--color-secondary);"></i>Kirim
+                                Pesan</h5>
+                            <form id="contactForm">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control form-control-custom" id="nama"
+                                        placeholder="Nama lengkap" required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control form-control-custom" id="email"
+                                        placeholder="Email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <textarea class="form-control form-control-custom" id="pesan" rows="4"
+                                        placeholder="Tulis pesan..." style="border-radius: 20px;"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary-custom w-100"><i
+                                        class="fas fa-send me-2"></i>Kirim</button>
+                                <div id="formFeedback" class="mt-3 text-center small"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- ======================================== -->
+    <!-- FOOTER -->
+    <!-- ======================================== -->
+    <footer class="text-center pt-4 pb-4">
+        <div class="container">
+            <h5 class="fw-bold"
+                style="background: linear-gradient(135deg, #93c5fd, var(--color-secondary)); background-clip: text; -webkit-background-clip: text; color: transparent;">
+                Simon Styvan Siregar
+            </h5>
+            <p class="small text-secondary">Mahasiswa Teknik Informatika | Universitas Budi Luhur</p>
+            <div class="mb-2">
+                <a href="https://www.instagram.com/imon_115/" target="_blank" rel="noopener noreferrer"
+                    class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/Simon96999" target="_blank" rel="noopener noreferrer" class="social-icon"
+                    aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/simon-siregar-20546a417/" target="_blank" rel="noopener noreferrer"
+                    class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p class="small mb-0">&copy; 2026 Simon Styvan Siregar</p>
+        </div>
+    </footer>
+
+    <!-- ======================================== -->
+    <!-- EXTERNAL JS -->
+    <!-- ======================================== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- ======================================== -->
+    <!-- CUSTOM JS -->
+    <!-- ======================================== -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
